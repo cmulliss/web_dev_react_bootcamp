@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
-export default class App extends Component {
+import Projects from './Projects'
+class App extends Component {
   state = {
     displayBio: false
   }
@@ -27,7 +28,10 @@ export default class App extends Component {
         ) : (
           <button onClick={this.toggleDisplayBio}>Read more...</button>
         )}
+        <hr />
+        <Projects />
       </div>
     )
   }
 }
+export default App
