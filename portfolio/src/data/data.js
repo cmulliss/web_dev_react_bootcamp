@@ -6,7 +6,7 @@ const PROJECTS = [
   {
     id: 1,
     title: 'Example React Application',
-    description: 'A React App that I built, involving JS andf core web dev concepts',
+    description: 'A React App, involving JS and core web dev concepts',
     link: 'https://github.com/cmulliss',
     image: project1
   },
@@ -14,14 +14,14 @@ const PROJECTS = [
   {
     id: 2,
     title: 'My API',
-    description: 'A Rest API that I built from scratch with GET and POST requests',
+    description: 'A Rest API built from scratch with GET and POST requests',
     link: 'https://github.com/cmulliss',
     image: project2
   },
   {
     id: 3,
     title: 'Operating Systems Final Project',
-    description: 'My unique final project for this course.',
+    description: 'My unique final project for this React development course.',
     link: 'https://github.com/cmulliss',
     image: project3
   }
