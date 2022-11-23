@@ -40,13 +40,59 @@ const Hello = () => {
         <button className='ui  icon button'>
           <i className='cloud icon'></i>
         </button>
+        <i className='add to calendar large icon'></i>
+        <i className='alarm outline icon large'></i>
+        <i className='browser icon large'></i>
+        <i className='calender icon large'></i>
 
         <h3>Labelled</h3>
         <div className='ui labeled button' tabindex='0'>
           <div class='ui button'>
-            <i className='heart icon'></i> Like
+            <hr />
+            <div>
+              <i className='heart icon'></i> Like
+            </div>
           </div>
-          <a Name='ui basic label'>2,048</a>
+
+          <div>
+            <a Name='ui basic label'>2,048</a>
+          </div>
+          <br />
+          <div className='ui label'>
+            <i className='ui mail icon'>23</i>
+          </div>
+          <div className='inline field'>
+            <input type='text' />
+            <div className='ui left pointing label'>That username is taken</div>
+          </div>
+        </div>
+        <h3>Breadcrumb</h3>
+        <div className='ui container'>
+          <div className='ui breadcrumb'>
+            <a href='' className='section'>
+              Home
+            </a>
+            <div className='divider'> / </div>
+            <a href='' className='section'>
+              Store
+            </a>
+            <div className='divider'> / </div>
+            <div className='active section'>Tshirt</div>
+          </div>
+          <div>
+            <div className='ui link list celled horizontal'>
+              <div className='active items'>Home</div>
+              <a href='' className='item'>
+                About
+              </a>
+              <a href='' className='item'>
+                Jobs
+              </a>
+              <a href='' className='item'>
+                Team
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

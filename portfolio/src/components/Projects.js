@@ -8,12 +8,15 @@ const Projects = () => (
   //
   <div>
     <h2>Highlighted Projects</h2>
+    <br />
     <div className='ui grid'>
       {PROJECTS.map((PROJECT) => (
         <div>
           <div className='three wide column'>
-            <div class='ui segment'>
-              <Project key={PROJECT.id} project={PROJECT} />
+            <div className='ui raised segments'>
+              <div class='ui segment'>
+                <Project key={PROJECT.id} project={PROJECT} />
+              </div>
             </div>
           </div>
         </div>
